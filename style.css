@@ -197,6 +197,9 @@ color: #FFFFFF;
 .btn-content{
     padding: 46px;
 }
+.btn-content a{
+    text-decoration: none;
+}
 
 /* facts container */
 .achievement-container{
@@ -410,12 +413,8 @@ footer{
     .btn-content {
         padding: 25px;
     }
-    .btn-content {
-        padding: 25px;
-    }
-    .company-facts{
-
-    }
+    
+   
     .achievement {
         flex-direction: column;
         align-items: center;
@@ -445,14 +444,5 @@ footer{
     .footer p {
         text-align: center;
         padding: 20px 0px;
-    }
-
-
-
-
-
-
-.hide{
-        display: none;
     }
 }
